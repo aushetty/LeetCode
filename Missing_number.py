@@ -11,11 +11,8 @@ nums = [0,1]
 class Solution:
     def missingnumber(self , nums):
         
-        count = len(nums)
-        for i in range(len(nums)):
-            
-            
-        return count 
+
+        return None
 
 
 
