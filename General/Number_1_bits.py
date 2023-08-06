@@ -15,23 +15,15 @@ n = 00000000000000000000000000001011
 
 
 class Solution:
-    def hammingWeight(self, int):
-        
-        mystr = str(int)
-        a = 0
-        for i in mystr:
-            if i == 1:
-                a+= 1
+    def hammingWeight(self, n: int) -> int:
 
-                
-            
-        
-        
-        
-        
-        
-        
-        return a
+        res = 0 
+
+        while n:
+            res += n % 2
+            n = n >> 1
+
+        return res
 
 
 
