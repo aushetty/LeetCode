@@ -33,4 +33,4 @@ def fib(n):
 
 if __name__ == '__main__':
     print(find_sum(7))
-    print(fib(6))
+    print(fib(5))
