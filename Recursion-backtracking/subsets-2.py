@@ -11,6 +11,8 @@ class Solution:
         res = []
         nums.sort()
 
+        #sorting is done as a pre computation to avoid te complexity 
+
 
 
         def backtrack(i, subset):
