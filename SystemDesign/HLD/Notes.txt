@@ -13,5 +13,49 @@ Topics covered
 https://www.youtube.com/c/codeKarle
 
 
+https://www.youtube.com/watch?v=FSR1s2b-l_I&list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a
+
+https://www.youtube.com/watch?v=KjM1kWCGef8
+
+
+
+
+
+
+System Design
+
+- For system design I have these resources
+- The below list is in order(based on my own experience)
+
+    Sudocode channel on Youtube (https://www.youtube.com/c/sudoCODE/playlists) system design playlist - 
+    This playlist will give you what you need to know before tackling any of the system design questions.
+
+    This specific video from codeKarle youtube channel https://www.youtube.com/watch?v=cODCpXtPHbQ of when to choose which database.
+
+    This book : System Design Interview by Alex Su (you don't have to purchase this, you can find this online,
+     I don't know if this subreddit will allow to post the link)
+
+ you can do direct meetings with them over google meet or zoom, no need to use pramp.
+
+    Gaurav sen's Youtube channel (This is more for full length mock interviews)
+
+
+
+Some other things I learned specific to system design were, there are 4 parts to every system design.
+
+    Asking clarifying questions
+
+    functional requirements
+
+    Non-functional requirements
+
+    Api design
+
+    Database structure
+    Every question I get I do the above 5 things in order and then start to draw design.
+
+
+
+
 
 
