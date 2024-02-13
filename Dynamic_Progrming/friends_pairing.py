@@ -45,3 +45,50 @@ class Solution:
             return memo[n]
 
         return helper(n)
+    
+
+
+
+
+
+# For similar problems refer this link for practice
+# https://www.geeksforgeeks.org/number-of-ways-to-pair-people/#practice
+
+
+
+
+# Iterative approach
+    
+
+#NOte for iterative approach 
+    
+
+#understand how we arrived at the formula 
+#if a , b, c,d are the elements we need to find combination of pairing then within the dp array find the value for (i-1)th element and (i-2)th element 
+    
+
+
+
+
+
+class Solution:
+    def countFriendsPairings(self, n):
+        MOD = 10**9 + 7
+
+        dp = [0] * (n+1)
+
+        #here we populated the 0th and 1st indexes because the return value for 0 remaining element and 1 remaining element is 1, hence dp[0] and dp[1] is 1 
+        dp[0] = 1
+        dp[1] = 1
+
+        #now we iterate the loop from position 2 to n+1 and use the above logic of sum of hop of i-1 and i-2 positions alongwith * (i-1) to calculate all possible combinations for the elements
+        
+        for i in range(2 , n+1):
+            dp[i] = (dp[i-1] + (dp[i-2] * (i-1))) % MOD
+
+
+        return dp[n]
+
+
+
+    
